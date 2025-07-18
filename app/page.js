@@ -43,12 +43,9 @@ export default async function HomePage() {
             <div className={styles.authOptions}>
               <h2 className={styles.authTitle}>Please Log In</h2>
               <div className={styles.authButtons}>
-                <a
-                  href="/api/auth/signin/github"
-                  className={`${styles.navButton} ${styles.userButton}`}
-                >
-                  User Login
-                </a>
+        <Link href="/auth/login" className={styles.adminButton}>
+                  user Login
+                </Link>
                 <Link href="/auth/login" className={styles.adminButton}>
                   Admin Login
                 </Link>
