@@ -1,0 +1,132 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #2c3e50;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.blogCard {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.792);
+  transition: transform 0.3s ease;
+}
+
+.blogCard:hover {
+  transform: translateY(-5px);
+}
+
+.blogTitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.blogExcerpt {
+  font-size: 1rem;
+  color: #4a4a4a;
+}
+
+.authOptions {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.authTitle {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.userButton,
+.adminButton {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  border-radius: 4px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.userButton {
+  background-color: #3498db;
+  color: #ffffff;
+}
+
+.userButton:hover {
+  background-color: #2980b9;
+}
+
+.adminButton {
+  background-color: #e74c3c;
+  color: #ffffff;
+}
+
+.adminButton:hover {
+  background-color: #c0392b;
+}
+.introSection {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding: 1rem 2rem;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #444;
+  max-width: 700px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.authOptions {
+  text-align: center;
+}
+
+.authTitle {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.authButtons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.navButton,
+.adminButton {
+  padding: 0.5rem 1.2rem;
+  border: none;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.navButton:hover,
+.adminButton:hover {
+  background-color: #555;
+}
