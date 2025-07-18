@@ -36,7 +36,7 @@ export default async function HomePage() {
               <h1 className={styles.heading}>Welcome to Your Blog</h1>
               <p className={styles.description}>
                 Your Blog is a simple and powerful platform for reading and publishing insightful articles.
-                Whether you're here to explore blogs or manage content as an admin, you're in the right place.
+                Whether you are here to explore blogs or manage content as an admin, you are in the right place.
               </p>
             </div>
 
