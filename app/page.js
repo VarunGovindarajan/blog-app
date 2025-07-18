@@ -3,6 +3,7 @@ import { connectDB } from "@/lib/mongodb";
 import Blog from "@/models/Blog";
 import Link from "next/link";
 import styles from "./home.module.css";
+import { authOptions } from "@/app/api/auth/[...nextauth]/route";
 
 export default async function HomePage() {
   const session = await getServerSession(authOptions);
